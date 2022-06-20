@@ -1,4 +1,4 @@
-English | 简体中文
+English | [简体中文](https://github.com/findream/SysWhisoers2Demo/blob/main/README.zh-CN.md)
 
 ## 0x00 Project Description
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SysWhisoers2Demo is a reverse analysis of the kernel32.dll or kernelbase.dll file, so as to imitate the implementation logic of part of the Win32 API, so as to solve the development difficulties encountered by some SysWhisoers2 users when using SysWhisoers2 for EDR evasion. When SysWhisoers2Demo imitates the Win32 API, **partly adopts the principle of minimum development**, that is, some parameters need to use the default parameters stipulated in the Microsoft API document to reduce the workload of imitation.

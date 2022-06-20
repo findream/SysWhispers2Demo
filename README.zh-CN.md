@@ -1,4 +1,4 @@
-English | 简体中文
+[English](https://github.com/findream/SysWhisoers2Demo/blob/main/README.zh-CN.md) | 简体中文
 ## 0x00 项目简介
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SysWhisoers2Demo是通过逆向分析kernel32.dll或者kernelbase.dll文件，从而仿写部分Win32 API的实现逻辑，以解决部分SysWhisoers2使用者在利用SysWhisoers2做EDR规避时候所遇到的开发困难。SysWhisoers2Demo在仿写Win32 API的时候，**部分采用最小开发原则**，即部分参数需要使用微软API文档所约定的默认参数，以减轻仿写的工作量。
 
