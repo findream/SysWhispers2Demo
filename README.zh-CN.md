@@ -1,4 +1,4 @@
-[English](https://github.com/findream/SysWhispers2Demo/blob/main/README.zh-CN.md) | 简体中文
+[English](https://github.com/findream/SysWhispers2Demo/blob/main/README.md) | 简体中文
 ## 0x00 项目简介
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SysWhispers2Demo是通过逆向分析kernel32.dll或者kernelbase.dll文件，从而仿写部分Win32 API的实现逻辑，以解决部分SysWhispers2使用者在利用SysWhispers2做EDR规避时候所遇到的开发困难。SysWhispers2Demo在仿写Win32 API的时候，**部分采用最小开发原则**，即部分参数需要使用微软API文档所约定的默认参数，以减轻仿写的工作量。
 
@@ -82,11 +82,11 @@ TerminateThread
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第二歩，在生成的Syscall.h文件中，导入prototypes.h头文件。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第三歩，在SysWhisoer2Demo库文件SysWhioers2Demo.c文件中，导入syscall.h头文件，目的是修改链接的Nt函数。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第三歩，在SysWhispers2Demo库文件SysWhioers2Demo.c文件中，导入syscall.h头文件，目的是修改链接的Nt函数。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第四步，注释SysWhisoer2Demo库文件SysWhioers2Demo.c文件中，指定函数的动态获取函数地址的语句。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第四步，注释SysWhispers2Demo库文件SysWhioers2Demo.c文件中，指定函数的动态获取函数地址的语句。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;除此以外，也可以选择直接Copy SysWhisoer2Demo.cpp中，你想要使用的函数。 No Care！这应该是最容易的。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;除此以外，也可以选择直接Copy SysWhispers2Demo.cpp中，你想要使用的函数。 No Care！这应该是最容易的。
 
 ## 0x03 版本信息
 ### v0.1.0（2022-06-20）

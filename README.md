@@ -86,11 +86,11 @@ After you have generated the files using SysWhispers2, assume the generated file
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The second step, in the generated Syscall.h file, import the prototypes.h header file.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The third step, in the SysWhisoer2Demo library file SysWhioers2Demo.c file, import the syscall.h header file, the purpose is to modify the linked Nt function.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The third step, in the SysWhispers2Demo library file SysWhioers2Demo.c file, import the syscall.h header file, the purpose is to modify the linked Nt function.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fourth step, comment in the SysWhisoer2Demo library file SysWhioers2Demo.c file, specify the statement of the function to dynamically obtain the function address.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fourth step, comment in the SysWhispers2Demo library file SysWhioers2Demo.c file, specify the statement of the function to dynamically obtain the function address.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In addition, you can also choose to directly Copy the function you want to use in SysWhisoer2Demo.cpp. No Care! This should be the easiest.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In addition, you can also choose to directly Copy the function you want to use in SysWhispers2Demo.cpp. No Care! This should be the easiest.
 
 ## 0x03 Version Information
 ### v0.1.0（2022-06-20）
